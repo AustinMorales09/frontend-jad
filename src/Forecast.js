@@ -54,7 +54,7 @@ function Forecast() {
                             <p>Humidity</p>
                         </div>
                         <div className="wind">
-                            <p className="bold">20 MHp</p>
+                            <p className="bold">20 Mph</p>
                             <p>Wind Speed</p>
                         </div>
                     </div>
@@ -63,18 +63,7 @@ function Forecast() {
     );
 
 
-        // <div className="container">
-        // <div className="top-bar">
-        //     <input type="text" className="cityInput" placeholder=""/>
-        //     <div className="search-icon">
-        //         <img src={search_icon} alt="" />
-        //     </div>
-        // </div>
-        // <div className="weather-image">
-        //     <img src={cloud_icon} alt="" />
-        // </div>
-        // <div className="weather-temp">24˚c</div>
-        // </div>
+        
 }
 
 export default Forecast

@@ -1,6 +1,6 @@
 {
-  "proxy": "https://localhost:4000",
-  "homepage": "https://jaycooper97.github.io/cincy-finds",
+ 
+  "homepage": "https://jaycooper97.github.io/",
   "name": "cincy-finds",
   "version": "0.1.0",
   "private": true,

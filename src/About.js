@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from './Footer';
+
 // Images
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -24,9 +24,10 @@ function About() {
                 </p>
                 <hr />
                 {/* Info */}
-                <div className="container mt-5">
-                    <div className="card">
-                            <img src={Dennis} className='card-img-side' alt="One of our Creators" />
+                <div className="container-fluid  mt-5">
+                <div className="row d-flex justify-content-evenly ">
+                    <div className="card col-lg-4 ">
+                            <img src={Dennis} className='card-img-side img-fluid' alt="One of our Creators" />
                         <div className="card-body">
                             <h5 className="card-title">Dennis</h5>
                             <p className="card-text">
@@ -34,13 +35,13 @@ function About() {
                                 <b><u> Contact: </u></b>
                                 <br />
                             </p>
-                            <a href='' className='me-4 text-reset'>
+                            <a href='https://dennislinneman.github.io/AboutMe/' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faGithub}/></a>
                         </div>
                     </div>
                     {/* END */}
-                    <div className="card">
-                            <img src={Jay} className='card-img-side' alt="One of our Creators" />
+                    <div className="card col-4">
+                            <img src={Jay} className='card-img-side img-fluid' alt="One of our Creators" />
                         <div className="card-body">
                             <h5 className="card-title">Jay</h5>
                             <p className="card-text">
@@ -48,25 +49,27 @@ function About() {
                                 <b><u> Contact: </u></b>
                                 <br />
                             </p>
-                            <a href='git@github.com:jaycooper97/About-Me.git' className='me-4 text-reset'>
+                            <a href='https://github.com/jaycooper97/About-Me' className='me-4 text-reset'>
                             <FontAwesomeIcon icon={faGithub}/></a>
                         </div>
                     </div>
                     {/* END */}
-                     <div className="card">
-                        <img src={Alykaa} className='card-img-side' alt="One of our Creators" />
+                     <div className="card col-4">
+                        <img src={Alykaa} className='card-img-side img-fluid' alt="One of our Creators" />
                         <div className="card-body">
                             <h5 className="card-title">Alykaa</h5>
                             <p className="card-text">
                                 Content from Alykaa About Page
                                 <b><u> Contact: </u></b>
-                                <br />
-                                <a href='' className='me-4 text-reset'>
+                                <br /> </p>
+                                <a href='https://github.com/Salaaha2/aboutme' className='me-4 text-reset'> 
                             <FontAwesomeIcon icon={faGithub}/></a>
-                            </p>
+                          
                         </div>
                     </div>
                     {/* END */}
+                </div>
+
                 </div>
             </div>
           

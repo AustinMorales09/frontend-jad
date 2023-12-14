@@ -1,6 +1,5 @@
 // Footer.js
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faGoogle, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faHome, faPhone, faPrint } from '@fortawesome/free-solid-svg-icons';
@@ -9,36 +8,36 @@ import './style/style.css';
 
 function Footer() {
     return (
-        <footer>
+        <footer className='container-fluid'>
             <div className="bg-light text-center text-lg-start text-muted mt-5">
                 <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                     <div className='me-5 d-none d-lg-block'>
                         <span>Get connected with us on social networks:</span>
                     </div>
                     <div>
-                        <a href='#' className='me-4 text-reset'>
+                    <button  className='me-4 text-reset' style={{border:'none', background:'transparent'}}>
                             <FontAwesomeIcon icon={faFacebook} />
-                        </a>
-                        <a href='#' className='me-4 text-reset'>
+                        </button>
+                        <button  className='me-4 text-reset' style={{border:'none', background:'transparent'}}>
                             <FontAwesomeIcon icon={faTwitter} />
-                        </a>
-                        <a href='#' className='me-4 text-reset'>
+                        </button>
+                        <button  className='me-4 text-reset' style={{border:'none', background:'transparent'}}>
                             <FontAwesomeIcon icon={faGoogle} />
-                        </a>
-                        <a href='#' className='me-4 text-reset'>
+                        </button>
+                        <button  className='me-4 text-reset' style={{border:'none', background:'transparent'}}>
                             <FontAwesomeIcon icon={faInstagram} />
-                        </a>
-                        <a href='#' className='me-4 text-reset'>
+                        </button>
+                        <button  className='me-4 text-reset' style={{border:'none', background:'transparent'}}>
                             <FontAwesomeIcon icon={faLinkedin} />
-                        </a>
-                        <a href='#' className='me-4 text-reset'>
+                        </button>
+                        <button  className='me-4 text-reset' style={{border:'none', background:'transparent'}}>
                             <FontAwesomeIcon icon={faGithub} />
-                        </a>
+                        </button>
                     </div>
                 </section>
                 <section className=''>
                     <div className='text-center text-md-start mt-5'>
-                        <div className='mt-3'>
+                        <div className='mt-3 d-flex'>
                             <div md='3' lg='4' xl='3' className='mx-auto mb-4'>
                                 <h6 className='text-uppercase fw-bold mb-4'>
                                     <FontAwesomeIcon color='secondary' icon='gem' className='me-3' />
